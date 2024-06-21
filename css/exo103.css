@@ -1,0 +1,44 @@
+/* Réinitialisation du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(96, 27, 39);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+
+.colHeaders {
+    color: red;
+}
+
+caption {
+    padding: 10px;
+}
+
+.clair {
+    background: rgba(231, 182, 49, 0.28);
+}
+
+.fonce {
+    background: #c782b4;
+}

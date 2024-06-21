@@ -1,0 +1,71 @@
+/* Réinitialisation du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.highlight-effect {
+    background-image: linear-gradient(45deg, #eeff00, #ee1212);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowing 30s ease-in-out infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position 0 0;
+    }
+}
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.effect {
+    background-image: linear-gradient(#ffc700, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowing 2s ease-in-out infinite;
+}
+
+.anim-ele {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    animation: rotate 2s linear infinite;
+}

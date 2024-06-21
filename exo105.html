@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exo106.css">
+    <title>Creation de formulaire</title>
+</head>
+
+<body>
+    <form class="form-box" action="" method="POST" class="form01">
+        <div>
+            <label for="name">Nom :</label>
+            <input id="name" type="text">
+        </div><br />
+        <div>
+            <label for="mail">E-mail :</label>
+            <input id="mail" type="email">
+        </div><br />
+        <div>
+            <label for="message">Message :</label>
+            <input id="message" type="textarea">
+        </div><br />
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <br>
+
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <div>
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name">
+            </div><br>
+            <div>
+                <label for="ville">Ville :</label>
+                <input type="text" List="city-list" id="" name="city-list">
+                <datalist id="city-list">
+                    <option value="Paris">
+                    <option value="Toulouse">
+                    <option value="Marseille">
+
+                </datalist>
+            </div><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Votre annonce</legend>
+            <div>
+                <label for="announcement">Type de l'annoce :</label>
+                <select name="announcement" id="announcement">
+                    <optgroup label="immobilier">
+                        <option value="loca">loca</option>
+                        <option value="coloc">coloc</option>
+                    </optgroup>
+                    <optgroup label="Mode">
+                        <option value="habits">habits</option>
+                        <option value="chaussures">chaussures</option>
+                    </optgroup>
+                    <optgroup label="Loisirs">
+                        <option value="books">books</option>
+                        <option value="bikes">bikes</option>
+                    </optgroup>
+                </select>
+            </div><br>
+            <div>
+                <label for="title">Titre de l'annonce :</label>
+                <input type="text" id="title" name="title">
+            </div><br>
+            <div>
+                <label for="description">Description de l'annonce</label>
+                <textarea id="description" name="description" cols="30" rows="10"></textarea>
+            </div><br>
+            <input type="submit" value="Publier l'annonce">
+        </fieldset>
+
+    </form>
+
+    <form>
+        <label for="nom">Nom :</label>
+        <input id="nom" type="text" required>
+        <br>
+        <label for="prenom">Prénom :</label>
+        <input id="prenom" type="text" required>
+        <br>
+        <label for="email">E-mail :</label>
+        <input id="email" type="email" required>
+        <br>
+        <label for="langage">Langage :</label>
+        <select id="langage" required>
+            <option value="">Sélectionnez un langage</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="ruby">Ruby</option>
+        </select>
+        <br>
+        <label for="commentaire">Commentaire :</label>
+        <textarea id="commentaire" required></textarea>
+        <br>
+        <input type="submit" value="Valider">
+    </form>
+
+
+</body>
+
+</html>

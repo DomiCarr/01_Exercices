@@ -1,0 +1,10 @@
+html {
+    width: 100%;
+    font-family: arial, sans-serif;
+    color: #014e79;
+}
+
+div {
+    width: 50%;
+    margin: 1% 0%;
+}

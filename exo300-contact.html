@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La Chocolatine</title>
+    <meta name="description" content="Tout savoir sur la chocolatine contact">
+    <link rel="stylesheet" href="css/exo300.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <a href="exo300.html" title="Accueil">Accueil</a>
+            <a href="exo300-histo.html" title="Histoire">Histoire</a>
+            <a href="exo300-pol.html" title="La polémique">La polémique</a>
+            <a href="exo300-contact.html" title="Contact">Contact</a>
+        </nav>
+        <div class="header-social">
+            <a href="https://www.facebook.com/groups/347014343204524" title="Facebook" target="_blank">
+                <img src="media/img300-icon-fb.png" title="Facebook"></a>
+        </div>
+    </header>
+    <div class="ban-contact"></div>
+
+    <p>Vous avez des questions ou souhaitez commander des produits ?</p>
+    <h2>Venez-nous voir à notre adresse</h2>
+    <p>Place du Capitole<BR>
+        31000 Toulouse<br>
+        Occitanie<br>
+        France</p>
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.1038918514055!2d1.4388582855463068!3d43.60437840254544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec795aa712b23%3A0x53b447240d8e2344!2sPlace%20du%20Capitole!5e0!3m2!1sen!2sfr!4v1717442646023!5m2!1sen!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <h2>Envoyez-nous un mail</h2>
+
+    <form action="contact.html">
+        <div>
+            <label for="lastname">Nom: <sup>*</sup></label>
+            <input type="lastname" required id="lastname" name="lastname">
+        </div>
+        <div>
+            <label for="firstname">Prénom: <sup>*</sup></label>
+            <input type="firstname" required id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="email">Email: <sup>*</sup></label>
+            <input type="email" required id="email" name="email">
+        </div>
+        <div>
+            <label for="message">Message: </label>
+            <textarea required id="message" name="message" rows="5" cols="15">Message ici</textarea>
+        </div>
+        <label for="conditions">Je m'engage appeler cette vienoiserie une chocolatine: </label>
+        <input type="checkbox" required id="conditions" name="conditions">
+        <div>
+
+        </div>
+        <button>Envoyer</button>
+    </form>
+    <footer class="footer">
+        <p><em>©Chocolatine International Corporation</em></p>
+    </footer>
+
+</body>
+
+
+</html>

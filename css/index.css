@@ -1,0 +1,25 @@
+Reinitialisation navigateur * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Styles generaux body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: top;
+    padding: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    flex-direction: column;
+}
