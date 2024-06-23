@@ -24,45 +24,62 @@
     <div class="ban-contact"></div>
 
     <p>Vous avez des questions ou souhaitez commander des produits ?</p>
+    <br>
     <h2>Venez-nous voir à notre adresse</h2>
-    <p>Place du Capitole<BR>
-        31000 Toulouse<br>
-        Occitanie<br>
-        France</p>
-    <section>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.1038918514055!2d1.4388582855463068!3d43.60437840254544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec795aa712b23%3A0x53b447240d8e2344!2sPlace%20du%20Capitole!5e0!3m2!1sen!2sfr!4v1717442646023!5m2!1sen!2sfr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    <div id="adresse">
+        <div id="adresse-texte">
+            <p>Place du Capitole<BR>
+                31000 Toulouse<br>
+                Occitanie<br>
+                France</p>
+        </div>
+        <div id="adresse-plan">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.1038918514055!2d1.4388582855463068!3d43.60437840254544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec795aa712b23%3A0x53b447240d8e2344!2sPlace%20du%20Capitole!5e0!3m2!1sen!2sfr!4v1717442646023!5m2!1sen!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
 
 
     <h2>Envoyez-nous un mail</h2>
 
-    <form action="contact.html">
-        <div>
-            <label for="lastname">Nom: <sup>*</sup></label>
-            <input type="lastname" required id="lastname" name="lastname">
-        </div>
-        <div>
-            <label for="firstname">Prénom: <sup>*</sup></label>
-            <input type="firstname" required id="firstname" name="firstname">
-        </div>
-        <div>
-            <label for="email">Email: <sup>*</sup></label>
-            <input type="email" required id="email" name="email">
-        </div>
-        <div>
-            <label for="message">Message: </label>
-            <textarea required id="message" name="message" rows="5" cols="15">Message ici</textarea>
-        </div>
-        <label for="conditions">Je m'engage appeler cette vienoiserie une chocolatine: </label>
-        <input type="checkbox" required id="conditions" name="conditions">
-        <div>
+    <div id="form-container">
+        <div id="form-bg"></div>
+        <div id="form-section">
+            <form action="contact.html">
+                <div class="form-group">
+                    <div>
+                        <input type="lastname" placeholder="Nom" id="lastname" name="lastname">
+                    </div>
+                    <div>
+                        <input type="firstname" placeholder="Prénom" id="firstname" name="firstname">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="email@mail.xxx" id="email" name="email">
+                    </div>
+                    <div>
+                        <textarea required id="message" name="message" rows="5" cols="15">Message ici</textarea>
+                    </div>
+                    <div>
+                        <label for="conditions">Je m'engage à toujours dire chocolatine: </label>
+                        <input type="checkbox" required id="conditions" name="conditions">
+                    </div>
+
+                    <div id="form-button">
+                        <button>Envoyer</button>
+                    </div>
+                </div>
+            </form>
 
         </div>
-        <button>Envoyer</button>
-    </form>
+    </div>
+
+
+
+
     <footer class="footer">
         <p><em>©Chocolatine International Corporation</em></p>
     </footer>
