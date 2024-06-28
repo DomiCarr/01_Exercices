@@ -34,4 +34,37 @@ function sayHello3($name = "illustre inconnu") {
 	echo "Bonjour " . $name . "!";
 }
 sayHello3();
+
+echo "<br> -----------------------------------------------------------";
+echo "<br> =>   Fonction / Arguments ";
+echo "<br> -----------------------------------------------------------";
+echo "<br>";
+
+
+$name = "hector";
+function sayHello4($name) {
+	$name = ucfirst($name);
+	echo "<br> Bonjour " . $name . "!";
+}
+sayHello4($name);
+echo "<br> ", $name;
+
+echo "<br> -----------------------------------------------------------";
+echo "<br> =>   Fonction / Valeur de retour ";
+echo "<br> -----------------------------------------------------------";
+echo "<br>";
+
+
+function isOver18($age) {
+    if($age < 18) {
+       return false;	
+    } return true;
+}
+$result = isOver18(17);
+echo "<br> age 17: ", $result;
+
+$result = isOver18(19);
+echo "<br> age 19: ", $result;
+
+
 ?>
