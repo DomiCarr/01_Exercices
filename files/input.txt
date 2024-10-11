@@ -1,0 +1,4 @@
+albert;camus;55
+tintin;milou;33
+arsene;lupin;44
+albert;einstein;88
