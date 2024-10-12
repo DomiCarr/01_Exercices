@@ -1,0 +1,2 @@
+personne,string,nom,string,prenom,int,age
+animal,string,espece,string,nom

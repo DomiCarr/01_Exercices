@@ -1,0 +1,56 @@
+2024-10-12 15:06:35 :  -- START : Log file creation -------------
+2024-10-12 15:06:35 :  -- if -------------
+2024-10-12 15:06:35 :  -- while -------------
+2024-10-12 15:06:35 : namespace: personne
+2024-10-12 15:06:35 : Classe: Personne
+2024-10-12 15:06:35 : Creation fichier: ./exo423/personne.php
+2024-10-12 15:06:35 :  i: 1  count:7
+2024-10-12 15:06:35 : type attribut: string
+2024-10-12 15:06:35 : nom attribut: nom
+2024-10-12 15:06:35 : nom attribut avec maj: Nom
+2024-10-12 15:06:35 : tableau attribut t 0 :string
+2024-10-12 15:06:35 : tableau attribut t 1 :nom
+2024-10-12 15:06:35 : Ecriture ligne attribut de nom 
+2024-10-12 15:06:35 : Ecriture bloc get de nom 
+2024-10-12 15:06:35 : Ecriture bloc set de nom 
+2024-10-12 15:06:35 :  i: 3  count:7
+2024-10-12 15:06:35 : type attribut: string
+2024-10-12 15:06:35 : nom attribut: prenom
+2024-10-12 15:06:35 : nom attribut avec maj: Prenom
+2024-10-12 15:06:35 : tableau attribut t 0 :string
+2024-10-12 15:06:35 : tableau attribut t 1 :prenom
+2024-10-12 15:06:35 : Ecriture ligne attribut de prenom 
+2024-10-12 15:06:35 : Ecriture bloc get de prenom 
+2024-10-12 15:06:35 : Ecriture bloc set de prenom 
+2024-10-12 15:06:35 :  i: 5  count:7
+2024-10-12 15:06:35 : type attribut: int
+2024-10-12 15:06:35 : nom attribut: age
+2024-10-12 15:06:35 : nom attribut avec maj: Age
+2024-10-12 15:06:35 : tableau attribut t 0 :int
+2024-10-12 15:06:35 : tableau attribut t 1 :age
+2024-10-12 15:06:35 : Ecriture ligne attribut de age 
+2024-10-12 15:06:35 : Ecriture bloc get de age 
+2024-10-12 15:06:35 : Ecriture bloc set de age 
+2024-10-12 15:06:35 :  -- while -------------
+2024-10-12 15:06:35 : namespace: animal
+2024-10-12 15:06:35 : Classe: Animal
+2024-10-12 15:06:35 : Creation fichier: ./exo423/animal.php
+2024-10-12 15:06:35 :  i: 1  count:5
+2024-10-12 15:06:35 : type attribut: string
+2024-10-12 15:06:35 : nom attribut: espece
+2024-10-12 15:06:35 : nom attribut avec maj: Espece
+2024-10-12 15:06:35 : tableau attribut t 0 :string
+2024-10-12 15:06:35 : tableau attribut t 1 :espece
+2024-10-12 15:06:35 : Ecriture ligne attribut de espece 
+2024-10-12 15:06:35 : Ecriture bloc get de espece 
+2024-10-12 15:06:35 : Ecriture bloc set de espece 
+2024-10-12 15:06:35 :  i: 3  count:5
+2024-10-12 15:06:35 : type attribut: string
+2024-10-12 15:06:35 : nom attribut: nom
+2024-10-12 15:06:35 : nom attribut avec maj: Nom
+2024-10-12 15:06:35 : tableau attribut t 0 :string
+2024-10-12 15:06:35 : tableau attribut t 1 :nom
+2024-10-12 15:06:35 : Ecriture ligne attribut de nom 
+2024-10-12 15:06:35 : Ecriture bloc get de nom 
+2024-10-12 15:06:35 : Ecriture bloc set de nom 
+2024-10-12 15:06:35 :  -- END -------------
