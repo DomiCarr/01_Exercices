@@ -13,9 +13,23 @@
     </header>
 
     <?php 
+    /**
+     * Permet de calculer la somme de 2 nombres
+     * @param float $nb1 Premier nombre
+     * @param float $nb2 Deuxième nombre
+     * @return float Somme des deux nombres
+     */
     function fadd($nb1, $nb2){
         echo $nb1 + $nb2;
     }
+
+    function fadd2($nb1, $nb2){
+        return $nb1 + $nb2;
+    }
+
+    $total = fadd2(10,20);
+    echo ("<br> total : ");
+    var_dump($total);
 
     // fontion avec des paramètres optionnels avec les champs nommés
     // il faut mettre les paramètres optionnels à la fin

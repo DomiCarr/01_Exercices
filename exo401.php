@@ -1,4 +1,5 @@
 <?php
+
 if(""==null){ # compare la chaîne de caractère vide avec null
 	echo "une chaîne vide !", "\n";
     echo "<br>";
